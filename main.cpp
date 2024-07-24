@@ -139,15 +139,15 @@ void menuComparar()
     int opcao = -1;
     while (opcao < 1 || opcao > 4) 
     {
-    cout << "-----------------------------------------------\n";
-    cout << "| COMPARAR SELECTION SORT E INSERTION SORT\n";
-    cout << "| Escolha um arquivo:\n";
-    cout << "| 1. Arquivo com 1000 numeros\n";
-    cout << "| 2. Arquivo com 10000 numeros\n";
-    cout << "| 3. Arquivo com 100000 numeros\n";
-    cout << "| 4. Sair do programa\n";
-    cout << "-----------------------------------------------\n";
-    cin >> opcao;
+        cout << "-----------------------------------------------\n";
+        cout << "| COMPARAR SELECTION SORT E INSERTION SORT\n";
+        cout << "| Escolha um arquivo:\n";
+        cout << "| 1. Arquivo com 1000 numeros\n";
+        cout << "| 2. Arquivo com 10000 numeros\n";
+        cout << "| 3. Arquivo com 100000 numeros\n";
+        cout << "| 4. Sair do programa\n";
+        cout << "-----------------------------------------------\n";
+        cin >> opcao;
     }
     switch (opcao)
     {
