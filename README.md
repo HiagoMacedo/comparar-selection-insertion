@@ -6,7 +6,12 @@ A linguagem utilizada foi C++, para compilar esta linguagem é necessário ter i
 Para compilar é só digitar na linha de comando no diretório do projeto:  
 ```bash
 make
-```  
+```
+Para rodar o arquivo executável:
+```bash
+./main.out
+```
+
 Para excluir o arquivo usado para fazer o link:
 ```bash
 make clean
